@@ -1,0 +1,66 @@
+# =========================
+# General
+# =========================
+.DS_Store
+Thumbs.db
+*.log
+
+# =========================
+# Python / Django
+# =========================
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.egg-info/
+.eggs/
+
+# Environments
+.env
+.env.*
+.venv/
+venv/
+
+# Poetry
+poetry.toml
+
+# Django
+staticfiles/
+media/
+local_settings.py
+
+# =========================
+# Tests / Coverage
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================
+# Node / Vite
+# =========================
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+
+# Env files (frontend)
+frontend/.env
+frontend/.env.*
+
+# =========================
+# Build / Artifacts
+# =========================
+build/
+*.spec
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# OS
+# =========================
+.cache/
